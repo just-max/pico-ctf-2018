@@ -1,7 +1,7 @@
 from math import *
 import time
 
-image_bytes = open("img.bmp", "rb").read()
+image_bytes = open("loadsomebits.bmp", "rb").read()
 
 
 with open(time.strftime("output_%H_%M_%S.txt", time.localtime()), "wb") as output:
